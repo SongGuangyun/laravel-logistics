@@ -1,0 +1,24 @@
+{
+    "name": "songguangyun/laravel-logistics",
+    "authors": [
+        {
+            "name": "Ryan Song",
+            "email": "issong1026@gmail.com"
+        }
+    ],
+    "require": {
+        "wythe/logistics": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SongGuangyun\\LaravelLogistics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SongGuangyun\\LaravelLogistics\\ServiceProvider"
+            ]
+        }
+    }
+}
